@@ -450,6 +450,31 @@ section#explora{
             background-size: 800px;
             background-repeat: no-repeat;
         }
+
+        .container {
+            margin-left: 8em;
+        }
+        .pie-pagina .grupo-1{
+            grid-template-columns: repeat(1, 1fr);
+            padding: 1em;   
+        }
+        .grid{
+            gap: 0;
+            margin-top: 0px;
+        }
+        .grid .texto{
+            margin-top: 7px;
+            margin-right: 500px;
+            color: white;
+            text-shadow: 1px 1px 10px black;
+            font-family: 'BluuNext-Bold';
+        }
+        .portadap1 {
+            text-align: center;
+        }
+        .grupo2 {
+            margin-right: 10em;
+        }
 }
 
 @media (max-width: 625px) and (min-width: 420px){
