@@ -4,6 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../style.css">
     <script src="https://kit.fontawesome.com/eb5cb02716.js" crossorigin="anonymous"></script>
     <title>Inicia sesión en Hogwarts</title>
 </head>
@@ -11,10 +12,16 @@
     <div class="contenedor">
         <div class="contenedor-login">
             <form>
-                <label for="email">Email</label>
-                <input type="text" id="email" name="email">
-                <label for="password">Contraseña</label>
-                <input type="password" id="password" name="password">
+                <div class="inputBox-Login">
+                    <input type="text" required="required">
+                    <span>Usuario</span>
+                </div>
+    
+                <div class="inputBox-Login">
+                    <input type="password" required="required">
+                    <span>Contraseña</span>
+                </div>
+                
                 <input type="checkbox" id="mantenersesion">
                 <label class="cb" for="mantenersesion">Mantener sesión iniciada.</label>
                 <button class="boton"><a class="is" href="../index.html">Iniciar Sesión</a></button>

@@ -51,14 +51,16 @@ form {
 }
 
 .boton {
-    margin-top: 30px;
-    width: 40%;
-    height: 35px;
-    border-radius: 15px;
-    border-style: none;
-    background-color: #153540;
-    color: #7E0306;
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    border: 2px solid #000;
     cursor: pointer;
+    background-color: transparent;
+    transition: 0.5s;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
 }
 .is{
     text-decoration: none;
@@ -78,8 +80,6 @@ input {
     margin-top: 5px;
     width: 80%;
     height: 35px;
-    border-radius: 15px;
-    border-style: none;
 }
 
 p {
@@ -491,6 +491,11 @@ section#explora{
         width: 70%;
         padding: 2em;
     }
+    .login {
+        background-image: url(imagenes/loginresponsive.jpg);
+        background-size: 419px;
+        background-repeat: no-repeat;
+    }
 
     /*Index */
 
@@ -517,6 +522,7 @@ section#explora{
      }
      .opc {
         margin: 2em;
+        margin-right: 4em;
     }
     .botoneshero {
         width: 100%;
