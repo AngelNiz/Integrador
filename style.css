@@ -161,6 +161,7 @@ button:hover {
         background-image: url(imagenes/registerresponsive.jpg);
         background-size: 419px;
         background-position: center;
+        height: auto;
 
     }
     .registro {
