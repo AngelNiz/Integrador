@@ -440,6 +440,14 @@ section#explora{
             min-width: 150px;
         
         }
+        .botonhero {
+            display: flex;
+            justify-content: center;
+            width: 80%;
+            height: 55px;
+            margin-left: 10px;
+            
+        }
     
         form {
             width: 70%;
