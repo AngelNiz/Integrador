@@ -153,13 +153,25 @@ button:hover {
     color: rgb(255, 123, 0);
 }
 
+@media (max-width: 800px) and (min-width: 626px){
+    .conteiner {
+        background-image: url(imagenes/registerresponsive2.jpg);
+        background-size: 800px 1024px;
+        background-repeat: no-repeat;
+    }
+    .registro {
+        background: #D4D5C9;
+        box-shadow: none
+    }
+}
+
 @media (max-width: 419px) and (min-width: 300px){
     h3 {
         color: #000;
     }
     .conteiner {
         background-image: url(imagenes/registerresponsive.jpg);
-        background-size: 419px;
+        background-size: 419px 896px;
         background-position: center;
         height: auto;
 

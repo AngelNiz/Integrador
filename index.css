@@ -445,6 +445,11 @@ section#explora{
             width: 70%;
             padding: 2em;
         }
+        .login {
+            background-image: url(imagenes/responsive2.jpg);
+            background-size: 800px;
+            background-repeat: no-repeat;
+        }
 }
 
 @media (max-width: 625px) and (min-width: 420px){
@@ -493,7 +498,7 @@ section#explora{
     }
     .login {
         background-image: url(imagenes/loginresponsive.jpg);
-        background-size: 419px;
+        background-size: 419px 915px;
         background-repeat: no-repeat;
     }
 
